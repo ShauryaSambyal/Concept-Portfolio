@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+.nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.nav h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.nav h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.nav h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.content{
+    margin-top: 60px;
+    padding: 10px 60px; 
+}
+.content h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.content h1{
+    font-size: 110px;
+    line-height: 120px;
+    font-weight: 400;
+    margin-top: 25px;
+    width: 70%;
+    letter-spacing: -3px;
+    word-spacing: 12px;
+    
+}
+.case{
+    padding: 10px 65px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.case h4{
+    font-size: 26px;
+    font-weight: 500;
+}
+.case h5{
+    font-size: 26px;
+    font-weight: 500;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.line{
+    height: 2px;
+    width: 120px;
+    background: #000;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+    gap: 100px;
+}
+.elem{
+    width: 50%;
+}
+
+.elem-img{
+    height: 500px;
+    background-color: rgb(137, 162, 216);
+    border-radius: 30px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fpremium-psd%2Fpencil-sketch-logo-mockup_528542-828.jpg%3Fw%3D2000&f=1&nofb=1&ipt=4c7df14f5a1a062cf34fa58d64f0572223ec4a0d8dfb009031db902f2c96f267&ipo=images);
+    
+}
+#img2{
+    background-image: url(https://play-lh.googleusercontent.com/AlmIl24eJ2Wgd5DphCk2KkuJZgDIgdkJn3Ghz_SSiXBk3hRHHBvB5MVHTgEZM9alT2I=w2560-h1440);
+    
+}
+
+/* https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fpremium-psd%2Fpencil-sketch-logo-mockup_528542-828.jpg%3Fw%3D2000&f=1&nofb=1&ipt=4c7df14f5a1a062cf34fa58d64f0572223ec4a0d8dfb009031db902f2c96f267&ipo=images */
+/* https://play-lh.googleusercontent.com/AlmIl24eJ2Wgd5DphCk2KkuJZgDIgdkJn3Ghz_SSiXBk3hRHHBvB5MVHTgEZM9alT2I=w2560-h1440 */
+
+/* #img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+#img1{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+} */
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom i{
+    padding: 15px 30px;
+    border: 2px solid #000;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.bottom i:hover{
+    background-color: #000;
+    color: white;
+}
+
+
+
